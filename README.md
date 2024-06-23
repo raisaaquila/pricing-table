@@ -1,9 +1,7 @@
 ﻿# pricing-table
-
-HTML Structure:
-
+ 
 The HTML uses div elements to create a container for the pricing table.
-Each pricing plan (Basic, Standard, Premium) is represented as a .pricing-card div containing:
+Each Airpods is represented as a .pricing-card div containing:
 A title (.plan-title)
 A price (.plan-price)
 A list of features (.plan-features)
