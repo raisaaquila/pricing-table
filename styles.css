@@ -1,0 +1,81 @@
+/* styles.css */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e9f3f6;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.pricing-card {
+    background: linear-gradient(135deg, #001f3f, #0074D9);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid #51aff7;
+}
+
+.plan-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.plan-title {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.plan-price {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.plan-features li {
+    padding: 5px 0;
+}
+
+.unavailable {
+    text-decoration: line-through;
+}
+
+.buy-now {
+    background-color: #51aff7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buy-now:hover {
+    background-color: #00366d;
+}
